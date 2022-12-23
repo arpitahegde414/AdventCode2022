@@ -7,7 +7,7 @@ for i in data_to_list:
 	#loose
 	if x[1] == "X":
 		#opponent has choosen rock, we have to choose sissors to loose
-		if x[0] == "A:
+		if x[0] == "A":
 			score+=3
 		elif x[0] == "B":
 			#opponent has choosen paper, we have to choose rock to loose
@@ -27,14 +27,14 @@ for i in data_to_list:
 			#opponent has choosen sissors, we have to choose sisors to draw
 			score+=6
 	#win
-	elif x[1] = "Z":
-		if x[0] = "A":
+	elif x[1] == "Z":
+		if x[0] == "A":
 			#opponent has choosen rock, we have to choose paper to win
 			score+=8
-		elif x[0] = "B":
+		elif x[0] == "B":
 			#opponent has choosen paper, we have to choose sissors to win
 			score+=3
-		elit x[0] = "C":
+		elif x[0] == "C":
 			#opponent has choosen sissors, we have to choose rock to win
 			score+=7  
 
